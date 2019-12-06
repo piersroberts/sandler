@@ -1,4 +1,4 @@
-var tracery = require("tracery-grammar");
+var tracery = require("./functions/node_modules/tracery-grammar/tracery");
 
 var grammar = tracery.createGrammar({
   attempt: [
