@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "netlify-lambda build src/functions",
-    "install": "netlify-lambda install functions"
+    "postinstall": "netlify-lambda install"
   },
   "dependencies": {
     "tracery-grammar": "^2.7.4"

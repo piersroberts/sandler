@@ -115,7 +115,11 @@ var grammar = tracery.createGrammar({
     "clumsy",
     "unethical",
     "greedy",
-    "bored"
+    "bored",
+    "mental",
+    "zany",
+    "wacky",
+    "too cool for school"
   ],
   job: [
     "postman",
