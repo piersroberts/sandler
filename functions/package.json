@@ -1,9 +1,0 @@
-{
-  "name": "sandlerbot",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "tracery-grammar": "^2.7.4"
-  }
-}

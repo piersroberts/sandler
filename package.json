@@ -1,0 +1,16 @@
+{
+  "name": "sandlerbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "netlify-lambda build src/functions",
+    "install": "netlify-lambda install functions"
+  },
+  "dependencies": {
+    "tracery-grammar": "^2.7.4"
+  },
+  "devDependencies": {
+    "netlify-lambda": "^1.6.3"
+  }
+}
