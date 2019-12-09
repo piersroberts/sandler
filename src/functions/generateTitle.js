@@ -179,6 +179,7 @@ var grammar = tracery.createGrammar({
     "some boys",
     "everyone",
     "some dogs",
+    "the Army",
     "every #job# in #region#",
     "a newspaper guy",
     "the rest of the Transformers",
