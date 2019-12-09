@@ -102,7 +102,7 @@ var grammar = tracery.createGrammar({
     "an Internet billionare",
     "a #quality#husband",
     "someones pet",
-    "#job#-dog",
+    '"#job.capitalize#-Dog"',
     "#success_level# #artist#",
     "an animated princess"
   ],
@@ -125,11 +125,16 @@ var grammar = tracery.createGrammar({
     "hairdresser",
     "balet dancer",
     "chef",
+    "fire chief",
     "police cop",
     "paramedic",
     "estate agent",
     "man",
-    "girl"
+    "girl",
+    "animal doctor",
+    "professor",
+    "school teacher",
+    "dinosaur hunter"
   ],
   role: [
     " pretends to be #character# and",
@@ -167,7 +172,7 @@ var grammar = tracery.createGrammar({
     "a pope",
     "a mayor",
     "his friend's dad",
-    "mechahitler",
+    "MechaHitler",
     "the King of #country#",
     "his shadow",
     "Dracula",
@@ -176,6 +181,8 @@ var grammar = tracery.createGrammar({
     "some dogs",
     "every #job# in #region#",
     "a newspaper guy",
+    "the rest of the Transformers",
+    "mutants",
     "a tiny little #animal#"
   ],
   macguffin: [],
